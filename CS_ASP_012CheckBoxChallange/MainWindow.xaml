@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Height="53" Margin="85,288,0,0" VerticalAlignment="Top" Width="213" Click="Button_Click"/>
+        <RadioButton x:Name="pencil" Content="Pencil" HorizontalAlignment="Left" Height="29" Margin="85,57,0,0" VerticalAlignment="Top" Width="128" FontSize="16" FontWeight="Bold"/>
+        <RadioButton x:Name="Tablet" Content="Tablet" HorizontalAlignment="Left" Height="29" Margin="85,154,0,0" VerticalAlignment="Top" Width="128" FontSize="16" FontWeight="Bold"/>
+        <RadioButton x:Name="Phone" Content="Phone" HorizontalAlignment="Left" Height="29" Margin="85,125,0,0" VerticalAlignment="Top" Width="128" FontSize="16" FontWeight="Bold"/>
+        <RadioButton x:Name="Pen" Content="Pen" HorizontalAlignment="Left" Height="29" Margin="85,91,0,0" VerticalAlignment="Top" Width="128" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="__________" Content="Pick the one you prefer" HorizontalAlignment="Left" Height="49" Margin="335,57,0,0" VerticalAlignment="Top" Width="260" FontSize="22" FontWeight="Bold"/>
+        <Label x:Name="Label" Content="" HorizontalAlignment="Left" Height="50" Margin="383,183,0,0" VerticalAlignment="Top" Width="282" FontSize="16" FontWeight="Normal"/>
+        <Image x:Name="Pencilimg" HorizontalAlignment="Left" Height="146" Margin="400,259,0,0" VerticalAlignment="Top" Width="342" Source="/Image1.png" Opacity="0"/>
+        <Image x:Name="Penimg" HorizontalAlignment="Left" Height="146" Margin="400,259,0,0" VerticalAlignment="Top" Width="342" Source="/Image2.png" Opacity="0"/>
+        <Image x:Name="Phoneimg" HorizontalAlignment="Left" Height="146" Margin="400,259,0,0" VerticalAlignment="Top" Width="342" Source="/Image3.png" Opacity="0"/>
+        <Image x:Name="Tabletimg" HorizontalAlignment="Left" Height="146" Margin="400,259,0,0" VerticalAlignment="Top" Width="342" Source="/Image4.png" Opacity="0"/>
 
     </Grid>
 </Window>

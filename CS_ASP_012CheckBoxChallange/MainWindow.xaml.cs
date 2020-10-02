@@ -24,5 +24,43 @@ namespace CS_ASP_012CheckBoxChallange
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (pencil.IsChecked == true)
+            {
+                Label.Content = "Pencil, old school!";
+                Pencilimg.Opacity = 100;
+                Penimg.Opacity = 0;
+                Phoneimg.Opacity = 0;
+                Tabletimg.Opacity = 0;
+            }
+            if (Pen.IsChecked == true)
+            {
+                Label.Content = "Pen, smooth!";
+                Penimg.Opacity = 100;
+                Pencilimg.Opacity = 0;
+                Phoneimg.Opacity = 0;
+                Tabletimg.Opacity = 0;
+            }
+            if (Phone.IsChecked == true)
+            {
+                Label.Content = "Phone, touch screen!";
+                Phoneimg.Opacity = 100;
+                Pencilimg.Opacity = 0;
+                Penimg.Opacity = 0;
+                Tabletimg.Opacity = 0;
+            }
+            if (Tablet.IsChecked == true)
+            {
+                Label.Content = "Tablet, thats pretty big!";
+                Tabletimg.Opacity = 100;
+                Pencilimg.Opacity = 0;
+                Penimg.Opacity = 0;
+                Phoneimg.Opacity = 0;
+            }
+
+
+        }
     }
 }
